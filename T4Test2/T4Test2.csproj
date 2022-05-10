@@ -63,4 +63,30 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <!-- Get the Visual Studio version – defaults to 10: -->
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <!-- Keep the next element all on one line: -->
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <!-- To enable build tasks on your development computer, install Modeling SDK for Visual Studio. https://www.microsoft.com/en-us/download/details.aspx?id=40754 -->
+  <Import Project="$(VSToolsPath)\TextTemplating\Microsoft.TextTemplating.targets" />
+  <!-- Run the Transform task at the start of every build -->
+  <PropertyGroup>
+    <TransformOnBuild>true</TransformOnBuild>
+  </PropertyGroup>
+  <!-- Overwrite files that are read-only, for example because they are not checked out -->
+  <PropertyGroup>
+    <OverwriteReadOnlyOutputFiles>true</OverwriteReadOnlyOutputFiles>
+  </PropertyGroup>
+  <!-- Transform every template every time -->
+  <PropertyGroup>
+    <TransformOutOfDateOnly>false</TransformOutOfDateOnly>
+  </PropertyGroup>
+  <!-- 编译时识别在T4模板中名为SolutionDir的宏 -->
+  <ItemGroup>
+    <T4ParameterValues Include="SolutionDir">
+      <Value>$(SolutionDir)</Value>
+    </T4ParameterValues>
+  </ItemGroup>
 </Project>
