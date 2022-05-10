@@ -1,0 +1,26 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="$(SolutionDir)\T4TestHelper2\bin\Debug\T4TestHelper2.dll" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TestTextTemplate
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            <# string s = T4TestHelper2.Generator.PrintSomething(); #>
+<#=         s #>
+            Console.ReadKey();
+        }
+    }
+}

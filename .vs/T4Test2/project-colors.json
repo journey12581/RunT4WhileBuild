@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2c5da5d4-1152-434d-875f-4f6b651942c3": {
+      "ProjectGuid": "2c5da5d4-1152-434d-875f-4f6b651942c3",
+      "DisplayName": "T4Test2",
+      "ColorIndex": 0
+    },
+    "7408ed11-a3fd-4c8d-b1f4-5f4ea48ad83f": {
+      "ProjectGuid": "7408ed11-a3fd-4c8d-b1f4-5f4ea48ad83f",
+      "DisplayName": "T4TestHelper2",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

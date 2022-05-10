@@ -1,0 +1,8 @@
+C:\Users\31995\Desktop\c#项目\T4Test2\T4Test2\bin\Debug\T4Test2.exe.config
+C:\Users\31995\Desktop\c#项目\T4Test2\T4Test2\bin\Debug\T4Test2.exe
+C:\Users\31995\Desktop\c#项目\T4Test2\T4Test2\bin\Debug\T4Test2.pdb
+C:\Users\31995\Desktop\c#项目\T4Test2\T4Test2\obj\Debug\T4Test2.csproj.AssemblyReference.cache
+C:\Users\31995\Desktop\c#项目\T4Test2\T4Test2\obj\Debug\T4Test2.csproj.SuggestedBindingRedirects.cache
+C:\Users\31995\Desktop\c#项目\T4Test2\T4Test2\obj\Debug\T4Test2.csproj.CoreCompileInputs.cache
+C:\Users\31995\Desktop\c#项目\T4Test2\T4Test2\obj\Debug\T4Test2.exe
+C:\Users\31995\Desktop\c#项目\T4Test2\T4Test2\obj\Debug\T4Test2.pdb

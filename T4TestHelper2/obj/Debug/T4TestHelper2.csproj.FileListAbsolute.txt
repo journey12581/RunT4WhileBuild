@@ -1,0 +1,6 @@
+C:\Users\31995\Desktop\c#项目\T4Test2\T4TestHelper2\bin\Debug\T4TestHelper2.dll.config
+C:\Users\31995\Desktop\c#项目\T4Test2\T4TestHelper2\bin\Debug\T4TestHelper2.dll
+C:\Users\31995\Desktop\c#项目\T4Test2\T4TestHelper2\bin\Debug\T4TestHelper2.pdb
+C:\Users\31995\Desktop\c#项目\T4Test2\T4TestHelper2\obj\Debug\T4TestHelper2.csproj.CoreCompileInputs.cache
+C:\Users\31995\Desktop\c#项目\T4Test2\T4TestHelper2\obj\Debug\T4TestHelper2.dll
+C:\Users\31995\Desktop\c#项目\T4Test2\T4TestHelper2\obj\Debug\T4TestHelper2.pdb
